@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* ===============================================
-メインコンテンツ
+共通パーツ
 =============================================== */
 html {
   font-size: 100%;
@@ -42,9 +42,6 @@ li {
   margin-bottom: 65px;
 }
 
-/*-------------------------------------------
-  SP
-  -------------------------------------------*/
 @media screen and (max-width: 767px) {
   .wrapper {
     margin-bottom: 70px;
@@ -90,6 +87,8 @@ li {
 }
 #header ul li a {
   color: #24292e;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 #header ul li a:hover {
   opacity: 0.7;
@@ -148,19 +147,28 @@ Works
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; /* 横並びに配置します */
+  display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; /* 両端で揃えます */
+          justify-content: space-between;
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
-          flex-wrap: wrap; /* 折り返します */
+          flex-wrap: wrap;
   margin-bottom: 50px;
 }
 #works ul li {
   width: 31%;
   margin-bottom: 23px;
+  overflow: hidden;
+}
+#works ul li img {
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+#works ul li img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px) {
@@ -204,19 +212,19 @@ News
 }
 
 @media screen and (max-width: 767px) {
-  #new dl {
+  #news dl {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  #new dt {
+  #news dt {
     width: 100%;
     border-bottom: none;
     padding-bottom: 0;
   }
-  #new dd {
+  #news dd {
     width: 100%;
     padding-top: 0;
   }
@@ -260,6 +268,8 @@ Contact
   color: #fff;
   padding: 15px 0;
   border: solid 1px #24292e;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 .button input:hover {
   background: #fff;

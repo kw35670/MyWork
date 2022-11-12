@@ -9,28 +9,30 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body id="bird">
     <!-- ヘッダー -->
-    <header id="header">
-      <h1 class="site-title">
-        <a href="index.html">
-            <img class="header-icon" src="img/logo.svg" alt="My Work" />
-        </a>
-      </h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#works">Works</a></li>
-          <li><a href="#news">News</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-              <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム"/>
+    <div id="main-visual">
+        <header id="header">
+          <h1 class="site-title">
+            <a href="index.html">
+                <img class="header-icon" src="img/logo.svg" alt="My Work" />
             </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+          </h1>
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                  <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+    </div>
 
     <main>
       <!-- メインビジュアル -->
@@ -43,7 +45,13 @@
 
       <!-- Aboutセクション -->
       <section id="about" class="wrapper">
-        <h2 class="sec-title">About</h2>
+        <h2 class="sec-title">
+            <span class="text-animation">A</span>
+            <span class="text-animation">b</span>
+            <span class="text-animation">o</span>
+            <span class="text-animation">u</span>
+            <span class="text-animation">t</span>
+        </h2>
         <ul>
           <li>Xxxxx Ashley</li>
           <li>
@@ -116,5 +124,9 @@
     <footer id="footer">
       <p>&copy; 2020 My Work</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
