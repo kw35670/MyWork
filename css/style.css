@@ -83,6 +83,8 @@ li {
 }
 #header ul li {
   font-size: 0.9rem;
+}
+#header ul li:not(:first-child) {
   margin-left: 30px;
 }
 #header ul li a {

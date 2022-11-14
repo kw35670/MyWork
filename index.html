@@ -7,19 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body id="bird">
     <!-- ヘッダー -->
-    <div id="main-visual">
+    <div id="main-visual"> 
         <header id="header">
-          <h1 class="site-title">
+          <h1 class="site-title wow animate__animated animate__fadeInDown">
             <a href="index.html">
                 <img class="header-icon" src="img/logo.svg" alt="My Work" />
             </a>
           </h1>
           <nav>
-            <ul>
+            <ul class="wow animate__animated animate__fadeInDown">
               <li><a href="#about">About</a></li>
               <li><a href="#works">Works</a></li>
               <li><a href="#news">News</a></li>
@@ -45,24 +46,20 @@
 
       <!-- Aboutセクション -->
       <section id="about" class="wrapper">
-        <h2 class="sec-title">
-            <span class="text-animation">A</span>
-            <span class="text-animation">b</span>
-            <span class="text-animation">o</span>
-            <span class="text-animation">u</span>
-            <span class="text-animation">t</span>
+        <h2 class="sec-title wow animate__animated animate__fadeInRightBig">
+            About
         </h2>
         <ul>
-          <li>Xxxxx Ashley</li>
-          <li>
+          <li class="wow animate__animated animate__bounce">Xxxxx Ashley</li>
+          <li class="wow animate__animated animate__bounce">
             2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031
             Japan
           </li>
-          <li>tel: 000-0000-0000</li>
-          <li>url: www.xxxxxx.jp</li>
-          <li>mail: xxx@xxxxxx.jp</li>
+          <li class="wow animate__animated animate__bounce">tel: 000-0000-0000</li>
+          <li class="wow animate__animated animate__bounce">url: www.xxxxxx.jp</li>
+          <li class="wow animate__animated animate__bounce">mail: xxx@xxxxxx.jp</li>wow animate__animated animate__bounce
         </ul>
-        <p>
+        <p class="wow animate__animated animate__bounce">
           プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
           テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
@@ -71,21 +68,21 @@
 
       <!-- Worksセクション -->
       <section id="works" class="wrapper">
-        <h2 class="sec-title">Works</h2>
+        <h2 class="sec-title wow animate__animated animate__fadeInRightBig wow fadeInRightBig">Works</h2>
         <ul>
-          <li><img src="img/works1.jpg" alt="テキストテキストテキスト" /></li>
-          <li><img src="img/works2.jpg" alt="テキストテキストテキスト" /></li>
-          <li><img src="img/works3.jpg" alt="テキストテキストテキスト" /></li>
-          <li><img src="img/works4.jpg" alt="テキストテキストテキスト" /></li>
-          <li><img src="img/works5.jpg" alt="テキストテキストテキスト" /></li>
-          <li><img src="img/works6.jpg" alt="テキストテキストテキスト" /></li>
+          <li class="wow animate__animated animate__rubberBand"><img src="img/works1.jpg" alt="テキストテキストテキスト" /></li>
+          <li class="wow animate__animated animate__rubberBand"><img src="img/works2.jpg" alt="テキストテキストテキスト" /></li>
+          <li class="wow animate__animated animate__rubberBand"><img src="img/works3.jpg" alt="テキストテキストテキスト" /></li>
+          <li class="wow animate__animated animate__rubberBand"><img src="img/works4.jpg" alt="テキストテキストテキスト" /></li>
+          <li class="wow animate__animated animate__rubberBand"><img src="img/works5.jpg" alt="テキストテキストテキスト" /></li>
+          <li class="wow animate__animated animate__rubberBand"><img src="img/works6.jpg" alt="テキストテキストテキスト" /></li>
         </ul>
       </section>
 
       <!-- Newsセクション -->
       <section id="news" class="wrapper">
-        <h2 class="sec-title">News</h2>
-        <dl>
+        <h2 class="sec-title wow animate__animated animate__fadeInRightBig wow fadeInRightBig">News</h2>
+        <dl class="wow animate__animated animate__zoomIn">
           <dt>2020.XX.XX</dt>
           <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
           <dt>2020.XX.XX</dt>
@@ -105,17 +102,19 @@
 
       <!-- Contactセクション -->
       <section id="contact" class="wrapper">
-        <h2 class="sec-title">Contact</h2>
+        <h2 class="sec-title wow animate__animated animate__fadeInRightBig wow fadeInRightBig">Contact</h2>
         <form action="#" method="post">
           <dl>
-            <dt><label for="name">NAME</label></dt>
+            <dt class="wow animate__animated animate__bounceInLeft"><label for="name">NAME</label></dt>
             <dd><input type="text" id="name" name="your-name" /></dd>
-            <dt><label for="email">E-mail</label></dt>
+            <dt class="wow animate__animated animate__bounceInLeft"><label for="email">E-mail</label></dt>
             <dd><input type="email" id="email" name="your-email" /></dd>
-            <dt><label for="message">MESSAGE</label></dt>
+            <dt class="wow animate__animated animate__bounceInLeft"><label for="message">MESSAGE</label></dt>
             <dd><textarea id="message" name="your-message"></textarea></dd>
           </dl>
-          <div class="button"><input type="submit" value="送信" /></div>
+          <div class="button wow animate__animated animate__flipInX">
+            <input type="submit" value="送信" />
+          </div>
         </form>
       </section>
     </main>
@@ -125,8 +124,9 @@
       <p>&copy; 2020 My Work</p>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
