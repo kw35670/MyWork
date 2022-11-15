@@ -1,0 +1,50 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "liveSassCompile.settings.generateMap": false,
+  "git.confirmSync": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.rename.enablePreview": false,
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "window.zoomLevel": 1,
+  "explorer.confirmDragAndDrop": false,
+  "sass.andStared": ["active", "focus", "hover", "nth-child"],
+  "liveSassCompile.settings.formats": [
+    //Sassの出力内容の設定
+    {
+      "format": "expanded", //nested、compact、compressedのどれかを選ぶ
+      "extensionName": ".css", //style.cssとして出力
+      "savePath": "~/../css" //cssフォルダの中にstyle.cssを出力
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    //対象外とするフォルダを指定
+    "**/node_modules/**",
+    ".vscode/**",
+    ".history/**"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    //ベンダープレフィックスの指定
+    "last 2 versions",
+    "ie >= 11",
+    "Android >= 4",
+    "ios_saf >= 8"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.forceBaseDirectory": ""
+}
