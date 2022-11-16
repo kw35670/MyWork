@@ -10,6 +10,9 @@ $breakpoint: (
   }
 }
 
+$mainColor: #24292e;
+$subColor: #c8c8c8;
+
 /* ===============================================
 共通パーツ
 =============================================== */
@@ -19,7 +22,7 @@ html {
 }
 
 body {
-  color: #24292e;
+  color: $mainColor;
 }
 
 a {
@@ -93,7 +96,7 @@ li {
       }
 
       a {
-        color: #24292e;
+        color: $mainColor;
         transition: all ease 0.3s;
 
         &:hover {
@@ -208,18 +211,18 @@ News
     dl {
         display: flex;
         flex-wrap: wrap; 
-        border-top: solid 1px #c8c8c8;
+        border-top: solid 1px $subColor;
         margin-bottom: 20px;
     }
 
     dt {
         width: 20%; 
-        border-bottom: solid 1px #c8c8c8;
+        border-bottom: solid 1px $subColor;
         padding: 15px;
     }
     dd {
       width: 80%; 
-      border-bottom: solid 1px #c8c8c8;
+      border-bottom: solid 1px $subColor;
       padding: 15px;
     }
 }
@@ -265,7 +268,7 @@ Contact
         input,
         textarea {
             width: 100%;
-            border: solid 1px #c8c8c8;
+            border: solid 1px $subColor;
             padding: 10px;
         }
 
@@ -280,15 +283,15 @@ Contact
 
     input {
         width: 200px;
-        background-color: #24292e;
+        background-color: $mainColor;
         color: #fff;
         padding: 15px 0;
-        border: solid 1px #24292e;
+        border: solid 1px $mainColor;
         transition: all ease 0.3s;
 
         &:hover {
             background: #fff;
-            color: #24292e;
+            color: $mainColor;
         }
     }
 }
@@ -313,7 +316,7 @@ Contact
 フッター
 -------------------------------------------*/
 #footer {
-  background-color: #24292e;
+  background-color: $mainColor;
   color: #fff;
   font-size: 0.5rem;
   padding: 10px 20px;
