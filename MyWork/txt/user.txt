@@ -1,0 +1,31 @@
+{
+	"sp": {
+		"prefix": "mqs",
+		"body": [
+			"@include mq('sp') {",
+			"\t$1",
+			"}"
+		],
+		"description": "Log output to console"
+	},
+
+	"tab": {
+		"prefix": "mqt",
+		"body": [
+			"@include mq('tab') {",
+			"\t$1",
+			"}"
+		],
+		"description": "Log output to console"
+	},
+
+	"pc": {
+		"prefix": "mqp",
+		"body": [
+			"@include mq('pc') {",
+			"\t$1",
+			"}"
+		],
+		"description": "Log output to console"
+	}
+}
